@@ -15,5 +15,5 @@ var SampleFormTest() = function(){
 		status = 'passed';
 	else
 		status = 'failed';
-	return status;
+	console.log(status);
  };

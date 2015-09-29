@@ -18,9 +18,24 @@ SampleForm.prototype.setGender = function(gender){
 //cambiar hobby
 SampleForm.prototype.setHobbies = function(){
 	var size = arguments;
-	for(var i = 0; i < 6 ; i++){
-		if(size[i] == ){
-			
+	for(var i = 0; i < size.length ; i++){
+		if(size[i] == 'Skiing'){
+			$('input#hobby1').click();
+		}
+		if(size[i] == 'Running'){
+			$('input#hobby2').click();
+		}
+		if(size[i] == 'Eating'){
+			$('input#hobby3').click();
+		}
+		if(size[i] == 'Sleeping'){
+			$('input#hobby4').click();
+		}
+		if(size[i] == 'Reading'){
+			$('input#hobby5').click();
+		}
+		if(size[i] == 'Coding'){
+			$('input#hobby6').click();
 		}
 	}
 };
